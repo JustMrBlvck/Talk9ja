@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Header from './SecondaryComponent/Header'
+import Header from '../UI/SecondaryComponent/Header'
 
 function Container() {
   return (
@@ -8,7 +8,8 @@ function Container() {
 
         <BrowserRouter>
            
-              <Header/>
+          <Header/>
+       
 
            <Routes>
 
@@ -21,6 +22,8 @@ function Container() {
                 <Route/>
 
            </Routes>
+
+               {/* <Footer/> */}
         
         </BrowserRouter>
           

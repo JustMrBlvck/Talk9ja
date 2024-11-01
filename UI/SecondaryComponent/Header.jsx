@@ -61,6 +61,25 @@ function Header() {
                  </ul>
               </div>
         </div>
+
+
+
+                   {/* Mobile Header */}
+          <div className='h-[70px] bg-[#000] grid grid-cols-[20%,60%,20%] border-b-[.3px] border-[white] lg:hidden'>
+                 <div className='flex justify-center items-center'>
+                    <button className='text-2xl text-[white]'><FaBarsStaggered /></button> 
+                 </div>
+
+                 <div className='flex justify-center items-center text-SecondaryColor font-serif font-bold text-2xl'>
+                     <h1>The Scene 9ja</h1>
+                 </div>
+
+
+                 <div className='text-white flex items-center justify-center gap-3'>
+                    <a href=""><FaYoutube /></a>
+                    <a href=""><FaTiktok /></a>
+                 </div>
+            </div> 
            
     </div>
   )
